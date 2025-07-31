@@ -100,7 +100,7 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex gap-4 mt-4 text-gray-800">
             <a
-              href="https://www.facebook.com/clearion"
+              href="https://www.facebook.com/people/Clear-Ion-Experts-Pvt-Ltd/100069134930565/?rdid=1Co9btZQuVO9hlsW&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fe7Zii1YZsJpzUEAU%2F"
               target="_blank"
               rel="noreferrer"
               className="w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-600 hover:text-white transition duration-300"

@@ -31,7 +31,7 @@ const Home = () => {
             muted
             playsInline
           >
-            <source src="/video/mobile-banner.mp4" type="video/mp4" />
+            <source src="/video/banner.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
