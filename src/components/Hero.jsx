@@ -46,7 +46,7 @@ const Home = () => {
             </p>
             <Link
               to="/contact-us/"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded transition duration-300 text-sm"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded transition duration-300 text-sm"
             >
               Contact Us
             </Link>
@@ -84,7 +84,7 @@ const Home = () => {
             </p>
             <Link
               to="/contact-us/"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded transition duration-300 text-base"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded transition duration-300 text-base"
             >
               Contact Us
             </Link>

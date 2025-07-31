@@ -122,7 +122,7 @@ export default function Header() {
         leaveFrom="transform translate-x-0"
         leaveTo="transform -translate-x-full"
       >
-        <div className="md:hidden w-full px-4 py-4 bg-white text-blue-900 space-y-4">
+        <div className="md:hidden w-full px-4 py-4 bg-white text-blue-500 space-y-4">
           <Link to="/" onClick={() => setMobileOpen(false)} className="block font-semibold">Home</Link>
           <Link to="/about" onClick={() => setMobileOpen(false)} className="block font-semibold">About</Link>
 
@@ -166,7 +166,7 @@ export default function Header() {
           <Link
             to="/contact-us/"
             onClick={() => setMobileOpen(false)}
-            className="inline-block text-center w-full py-2 rounded font-medium bg-blue-900 text-white hover:bg-blue-800 transition"
+            className="inline-block text-center w-full py-2 rounded font-medium bg-blue-500 text-white hover:bg-blue-800 transition"
           >
             Contact
           </Link>
