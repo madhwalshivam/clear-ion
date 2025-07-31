@@ -5,6 +5,8 @@ import 'swiper/css/grid';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import { Grid, Pagination, Autoplay } from 'swiper/modules';
+import { Link } from 'react-router-dom';
+
 import img1 from '../assets/swim.jpg';
 import img2 from '../assets/air.jpg';
 import img3 from '../assets/ro.jpg';
@@ -89,7 +91,10 @@ export default function HomeService() {
         >
           {services.map((service, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white p-4 h-[370px] rounded shadow border border-gray-200 transition-transform duration-300 transform hover:-translate-y-2 fade-up flex flex-col justify-between text-center">
+              <Link
+                to={service.link}
+                className="block bg-white p-4 h-[370px] rounded shadow border border-gray-200 transition-transform duration-300 transform hover:-translate-y-2 fade-up flex flex-col justify-between text-center"
+              >
                 <div>
                   <img
                     src={service.image}
@@ -101,14 +106,11 @@ export default function HomeService() {
                   <p className="text-gray-600 text-sm">{service.desc}</p>
                 </div>
                 <div className="mt-4">
-                  <a
-                    href={service.link}
-                    className="text-blue-600 text-sm font-medium hover:underline"
-                  >
+                  <span className="text-blue-400 text-sm font-medium hover:underline">
                     Read More →
-                  </a>
+                  </span>
                 </div>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
