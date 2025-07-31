@@ -16,7 +16,7 @@ const CerBanner = () => {
   return (
     <div
       className={`relative w-full overflow-hidden ${
-        isMobile ? "h-[520px]" : "min-h-screen"
+        isMobile ? "h-[400px]" : "min-h-screen"
       }`}
     >
       {/* Background Image */}

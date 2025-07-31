@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import WaterDropIcon from '@mui/icons-material/WaterDrop';
 import RecyclingIcon from '@mui/icons-material/Recycling';
-import ForestIcon from '@mui/icons-material/Forest';
+
 
 const Solutions = () => {
   return (
@@ -32,47 +32,46 @@ const Solutions = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Water Treatment */}
           <div
-            className="text-center p-8 bg-blue-50 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
+            className="text-center p-8 bg-blue-500 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
             data-aos="fade-up"
           >
-            <div className="w-16 h-16 flex items-center justify-center bg-blue-600 rounded-full mx-auto mb-6">
-              <WaterDropIcon className="text-white" fontSize="large" />
+            <div className="w-16 h-16 flex items-center justify-center bg-white rounded-full mx-auto mb-6">
+              <WaterDropIcon className="text-blue-500" fontSize="large" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Water Treatment</h3>
-            <p className="text-gray-600">
+            <h3 className="text-2xl font-bold text-white mb-4">Water Treatment</h3>
+            <p className="text-white">
               Advanced filtration and purification systems for residential, commercial, and industrial applications.
             </p>
           </div>
 
           {/* Sewage Treatment */}
           <div
-            className="text-center p-8 bg-green-50 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
+            className="text-center p-8 bg-blue-500 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <div className="w-16 h-16 flex items-center justify-center bg-green-600 rounded-full mx-auto mb-6">
-              <RecyclingIcon className="text-white" fontSize="large" />
+            <div className="w-16 h-16 flex items-center justify-center bg-white rounded-full mx-auto mb-6">
+              <RecyclingIcon className="text-blue-500" fontSize="large" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Sewage Treatment</h3>
-            <p className="text-gray-600">
+            <h3 className="text-2xl font-bold text-white mb-4">Sewage Treatment</h3>
+            <p className="text-white">
               Comprehensive wastewater management solutions with biological and chemical treatment processes.
             </p>
           </div>
-
-          {/* Air Pollution Control */}
           <div
-            className="text-center p-8 bg-purple-50 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
+            className="text-center p-8 bg-blue-500 rounded-2xl shadow-md hover:shadow-xl transition duration-300"
             data-aos="fade-up"
-            data-aos-delay="200"
           >
-            <div className="w-16 h-16 flex items-center justify-center bg-purple-600 rounded-full mx-auto mb-6">
-              <ForestIcon className="text-white" fontSize="large" />
+            <div className="w-16 h-16 flex items-center justify-center bg-white rounded-full mx-auto mb-6">
+              <WaterDropIcon className="text-blue-500" fontSize="large" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Air Pollution Control</h3>
-            <p className="text-gray-600">
-              State-of-the-art air purification systems to reduce emissions and improve air quality.
+            <h3 className="text-2xl font-bold text-white mb-4">Waste Water Treatment</h3>
+            <p className="text-white">
+            Advanced waste water treatment systems designed to remove contaminants
+               recycle water.
             </p>
           </div>
+ 
         </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ import footerBg1 from "../assets/wf.png";
 
 const Footer = () => {
   return (
-    <footer className="relative text-gray-200 min-h-[550px] pt-10 md:pt-32 pb-8 px-6 md:px-12 overflow-hidden">
+    <footer className="relative text-gray-200 min-h-[550px]  pt-10 md:pt-32 pb-8 px-6 md:px-12 overflow-hidden">
       
       
       <div

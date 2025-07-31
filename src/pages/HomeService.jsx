@@ -5,79 +5,75 @@ import 'swiper/css/grid';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import { Grid, Pagination, Autoplay } from 'swiper/modules';
-
-import PoolIcon from '@mui/icons-material/Pool';
-import WindPowerIcon from '@mui/icons-material/WindPower';
-import OpacityIcon from '@mui/icons-material/Opacity';
-import RecyclingIcon from '@mui/icons-material/Recycling';
-import WaterIcon from '@mui/icons-material/Water';
-import LocalDrinkIcon from '@mui/icons-material/LocalDrink';
-import SettingsIcon from '@mui/icons-material/Settings';
-import PlumbingIcon from '@mui/icons-material/Plumbing';
-
-import './animations.css';
+import img1 from '../assets/swim.jpg';
+import img2 from '../assets/air.jpg';
+import img3 from '../assets/ro.jpg';
+import img4 from '../assets/sew.jpg';
+import img5 from '../assets/waterpark.jpg';
+import img6 from '../assets/min.jpg';
+import img7 from '../assets/waste.jpg';
+import img8 from '../assets/water.jpg';
 
 const services = [
   {
-    icon: <PoolIcon fontSize="large" color="primary" />,
+    image: img1,
     title: 'Swimming Pool Water Treatment Plant',
     desc: 'We offer advanced pool water treatment systems designed for safety, clarity, and chemical balance.',
-    link: '/services/swimming-pool-treatment'
+    link: '/swimming-pool-water-treatment-plant/'
   },
   {
-    icon: <WindPowerIcon fontSize="large" color="primary" />,
+    image: img2,
     title: 'Air Pollution Control Systems',
     desc: 'Our industrial air filtration systems help reduce harmful emissions using innovative scrubbers and filters.',
-    link: '/services/air-pollution-control'
+    link: '/air-pollution-control-systems/'
   },
   {
-    icon: <OpacityIcon fontSize="large" color="primary" />,
+    image: img3,
     title: 'Reverse Osmosis',
     desc: 'Efficient RO plants built for homes, businesses, and factories. These systems remove impurities, ensuring high-purity drinking or process water with minimal waste.',
-    link: '/services/reverse-osmosis'
+    link: '/reverse-osmosis/'
   },
   {
-    icon: <RecyclingIcon fontSize="large" color="primary" />,
+    image: img4,
     title: 'Sewage Treatment',
     desc: 'Turn wastewater into reusable clean water with our biological and chemical sewage treatment solutions. Trusted by industries and municipalities alike.',
-    link: '/services/sewage-treatment'
+    link: '/sewage-treatment-plant/'
   },
   {
-    icon: <WaterIcon fontSize="large" color="primary" />,
+    image: img5,
     title: 'Water Parks',
     desc: 'Filtration and chlorination systems specially designed for high-traffic water parks. Ensures water quality, user safety, and low maintenance costs.',
-    link: '/services/water-parks'
+    link: '/water-ammusement-parks/'
   },
   {
-    icon: <LocalDrinkIcon fontSize="large" color="primary" />,
+    image: img6,
     title: 'Mineral Water Plants',
     desc: 'Turn raw water into high-quality bottled mineral water. Our fully automated plants cover purification, bottling, labeling, and packaging.',
-    link: '/services/mineral-water-plants'
+    link: '/mineral-water-plants/'
   },
   {
-    icon: <SettingsIcon fontSize="large" color="primary" />,
+    image: img7,
     title: 'Waste Water Treatment Plants',
     desc: 'Custom wastewater solutions for textile, chemical, food, and other industries. Treat, recycle, and reuse your industrial discharge efficiently.',
-    link: '/services/waste-water-treatment'
+    link: '/waste-water-treatment-plants/'
   },
   {
-    icon: <PlumbingIcon fontSize="large" color="primary" />,
+    image: img8,
     title: 'Water Treatment Plants',
     desc: 'Municipal and industrial water treatment plants engineered for safe, reliable supply. Processes include filtration, UV, ozone, and chemical disinfection.',
-    link: '/services/water-treatment'
+    link: '/water-treatment-plants/'
   },
 ];
 
 export default function HomeService() {
   return (
-    <div className="py-10 bg-gray-50">
-     <div className="text-center mb-10">
-  <h2 className="text-4xl font-bold text-blue-400 mb-2">Our Services</h2>
-  <div className="w-24 h-1 bg-blue-400 mx-auto rounded"></div>
-</div>
+    <div className="py-10 bg-white">
+      <div className="text-center mb-10">
+        <h2 className="text-4xl font-bold text-blue-400 mb-2">Our Services</h2>
+        <div className="w-24 h-1 bg-blue-400 mx-auto rounded"></div>
+      </div>
 
-
-      <div className="max-w-6xl mx-auto ">
+      <div className="max-w-6xl mx-auto">
         <Swiper
           modules={[Grid, Pagination, Autoplay]}
           grid={{ rows: 1 }}
@@ -93,10 +89,15 @@ export default function HomeService() {
         >
           {services.map((service, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white p-6 h-[300px] rounded shadow border border-gray-200 transition-transform duration-300 transform hover:-translate-y-2 fade-up flex flex-col justify-between text-center">
+              <div className="bg-white p-4 h-[370px] rounded shadow border border-gray-200 transition-transform duration-300 transform hover:-translate-y-2 fade-up flex flex-col justify-between text-center">
                 <div>
-                  <div className="mb-4 flex justify-center">{service.icon}</div>
-                  <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-40 object-cover rounded mb-3"
+                    loading="lazy"
+                  />
+                  <h3 className="text-lg font-semibold mb-2">{service.title}</h3>
                   <p className="text-gray-600 text-sm">{service.desc}</p>
                 </div>
                 <div className="mt-4">
@@ -115,5 +116,4 @@ export default function HomeService() {
     </div>
   );
 }
-
 

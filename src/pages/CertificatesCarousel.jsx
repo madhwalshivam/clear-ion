@@ -54,7 +54,7 @@ const certificates = [
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 5,
     slidesToSlide: 1,
   },
   tablet: {

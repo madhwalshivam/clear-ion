@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import g1 from '../assets/g1.jpeg';
 import g2 from '../assets/g2.jpeg';
 import g3 from '../assets/g3.jpeg';
@@ -36,6 +36,7 @@ import g33 from '../assets/g33.jpg';
 import g34 from '../assets/g34.jpg';
 import g35 from '../assets/g35.jpg';
 import { motion } from "framer-motion";
+import GalBanner from "./GalleryBanner";
 
 const galleryItems = [
   { type: "image", src: g1 },
@@ -78,6 +79,8 @@ const galleryItems = [
 
 const Gallery = () => {
   return (
+    <div>
+    <GalBanner/>   
     <div className="px-6 py-20 bg-white">
       <Helmet>
         <title>Gallery - Clear Ion Experts (P) Ltd</title>
@@ -85,11 +88,6 @@ const Gallery = () => {
         <meta name="keywords" content="Water Filtration, Gallery, Clear-ion, Industrial Setup, Water Treatment Plant" />
         <link rel="canonical" href="https://clear-ion.com/gallery/" />
       </Helmet>
-
-      <div className="text-center mb-10">
-        <h2 className="text-4xl font-bold text-blue-400 mb-2">Our Gallery</h2>
-        <div className="w-64 h-1 bg-blue-400 mx-auto rounded"></div>
-      </div>
        
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {galleryItems.map((item, index) => (
@@ -112,6 +110,7 @@ const Gallery = () => {
           </motion.div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

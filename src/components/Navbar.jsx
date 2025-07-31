@@ -16,14 +16,15 @@ export default function Header() {
   const [servicesOpen, setServicesOpen] = useState(false); 
 
   const services = [
-    { name: 'Swimming Pool Water Treatment', href: '/services/swimming-pool' },
-    { name: 'Air Pollution Control Systems', href: '/services/air-pollution' },
-    { name: 'Reverse Osmosis', href: '/services/reverse-osmosis' },
-    { name: 'Sewage Treatment Plant', href: '/services/sewage-treatment' },
-    { name: 'Water Parks', href: '/services/water-parks' },
-    { name: 'Mineral Water Plants', href: '/services/mineral-water' },
-    { name: 'Waste Water Treatment Plants', href: '/services/waste-water-treatment' },
-    { name: 'Water Treatment Plants', href: '/services/water-treatment-plants' },
+    { name: 'Swimming Pool Water Treatment', href: '/swimming-pool-water-treatment-plant/' },
+    { name: 'Air Pollution Control Systems', href: '/air-pollution-control-systems/' },
+    { name: 'Reverse Osmosis', href: '/reverse-osmosis/' },
+    { name: 'Sewage Treatment Plant', href: '/sewage-treatment-plant/' },
+    { name: 'Water Parks', href: '/water-ammusement-parks/' },
+    { name: 'Mineral Water Plants', href: '/mineral-water-plants/' },
+    { name: 'Waste Water Treatment Plants', href: '/waste-water-treatment-plants/' },
+    { name: 'Water Treatment Plants', href: '/water-treatment-plants/' },
+    { name: 'All Services', href: '/services/' },
   ];
 
   useEffect(() => {
@@ -52,7 +53,7 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           <Link to="/" className="text-white font-semibold hover:text-blue-400">Home</Link>
-          <Link to="/about" className="text-white font-semibold hover:text-blue-400">About</Link>
+          <Link to="/about-us/" className="text-white font-semibold hover:text-blue-400">About</Link>
 
           {/* Services Dropdown */}
           <Menu as="div" className="relative inline-block text-left">
@@ -124,7 +125,7 @@ export default function Header() {
       >
         <div className="md:hidden w-full px-4 py-4 bg-white text-blue-500 space-y-4">
           <Link to="/" onClick={() => setMobileOpen(false)} className="block font-semibold">Home</Link>
-          <Link to="/about" onClick={() => setMobileOpen(false)} className="block font-semibold">About</Link>
+          <Link to="/about-us/" onClick={() => setMobileOpen(false)} className="block font-semibold">About</Link>
 
           {/* Collapsible Services Section */}
           <div>
@@ -155,7 +156,7 @@ export default function Header() {
             )}
           </div>
 
-          <Link to="/gallery" onClick={() => setMobileOpen(false)} className="block font-semibold">
+          <Link to="/gallery/" onClick={() => setMobileOpen(false)} className="block font-semibold">
             Gallery
           </Link>
 

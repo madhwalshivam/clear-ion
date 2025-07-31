@@ -1,6 +1,6 @@
 import React from "react";
-import { Helmet } from "react-helmet"; 
-
+import { Helmet } from "react-helmet-async"; 
+import { motion } from "framer-motion";
 import cert1 from "../assets/c.jpg";
 import cert2 from "../assets/c1.jpg";
 import cert3 from "../assets/c2.jpg";
@@ -54,7 +54,7 @@ const CertificatesPage = () => {
   return (
   <div>
     <CerBanner/>
-    <div className="min-h-screen bg-gray-50 pt-20 py-10 px-4 md:px-20">
+    <div className="min-h-screen bg-gray-50 pt-20 py-5 px-4 md:px-20">
       <Helmet>
         <title>Projects & Certificates | Clear Ion Experts (P) Ltd</title>
         <meta
@@ -84,31 +84,27 @@ const CertificatesPage = () => {
           content="https://clear-ion.com/certificates/"
         />
       </Helmet>
-
-      <div className="text-center mb-10">
-        <h2 className="text-4xl font-bold text-blue-500 mb-2">
-          OUR PROJECTS & CERTIFICATES
-        </h2>
-        <div className="w-64 h-1 bg-blue-400 mx-auto rounded"></div>
+     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {certificates.map((cert, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.5, delay: index * 0.05 }}
+              className="bg-white p-4 shadow rounded hover:shadow-lg transition"
+            >
+              <img
+                src={cert.image}
+                alt={cert.title}
+                className="w-full h-64 object-contain mb-2"
+                loading="lazy"
+              />
+              <p className="text-sm text-gray-700 text-center">{cert.title}</p>
+            </motion.div>
+          ))}
+        </div>
       </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {certificates.map((cert, index) => (
-          <div
-            key={index}
-            className="bg-white p-4 shadow rounded hover:shadow-lg transition"
-          >
-            <img
-              src={cert.image}
-              alt={cert.title}
-              className="w-full h-64 object-contain mb-2"
-              loading="lazy" 
-            />
-            <p className="text-sm text-gray-700 text-center">{cert.title}</p>
-          </div>
-        ))}
-      </div>
-    </div>
     </div>
   );
 };
