@@ -23,6 +23,7 @@ import cert19 from "../assets/c19.jpg";
 import cert20 from "../assets/c20.jpg";
 import cert21 from "../assets/c21.jpg";
 import cert22 from "../assets/c8.jpg";
+import CerBanner from "./CertificateBanner";
 
 const certificates = [
   { title: "United-Associates-1", image: cert1 },
@@ -51,6 +52,8 @@ const certificates = [
 
 const CertificatesPage = () => {
   return (
+  <div>
+    <CerBanner/>
     <div className="min-h-screen bg-gray-50 pt-20 py-10 px-4 md:px-20">
       <Helmet>
         <title>Projects & Certificates | Clear Ion Experts (P) Ltd</title>
@@ -105,6 +108,7 @@ const CertificatesPage = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
