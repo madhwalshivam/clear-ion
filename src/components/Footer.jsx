@@ -8,9 +8,8 @@ import footerBg1 from "../assets/wf.png";
 
 const Footer = () => {
   return (
-    <footer className="relative text-gray-200 min-h-[550px]  pt-10 md:pt-32 pb-8 px-6 md:px-12 overflow-hidden">
-      
-      
+    <footer className="relative text-gray-200 min-h-[550px] pt-10 md:pt-32 pb-8 px-6 md:px-12 overflow-hidden">
+      {/* 📱 Mobile Background Image */}
       <div
         className="block md:hidden absolute inset-0 z-[-1]"
         style={{
@@ -21,7 +20,7 @@ const Footer = () => {
         }}
       ></div>
 
-      {/* 💻 Desktop background image */}
+      {/* 💻 Desktop Background Image */}
       <div
         className="hidden md:block absolute inset-0 z-[-1]"
         style={{
@@ -42,7 +41,7 @@ const Footer = () => {
             Clear Ion Experts (P) Ltd is a manufacturing establishment whose underlying interests are in the field of water and wastewater treatment, sewage and effluent treatment, and air pollution control systems.
           </p>
           <Link
-            to="/about"
+            to="/about-us/"
             className="inline-block border border-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600 transition duration-300"
           >
             Read More About
@@ -56,9 +55,11 @@ const Footer = () => {
           </h4>
           <ul className="space-y-2 text-white">
             <li><Link to="/" className="hover:text-white">› Home</Link></li>
-            <li><Link to="/about" className="hover:text-white">› About Us</Link></li>
-            <li><Link to="/contact" className="hover:text-white">› Contact Us</Link></li>
-            <li><Link to="/service" className="hover:text-white">› Service</Link></li>
+            <li><Link to="/about-us/" className="hover:text-white">› About Us</Link></li>
+            <li><Link to="/services/" className="hover:text-white">› Services</Link></li>
+            <li><Link to="/gallery/" className="hover:text-white">› Gallery</Link></li>
+            <li><Link to="/certificates/" className="hover:text-white">› Projects & Certificates</Link></li>
+            <li><Link to="/contact-us/" className="hover:text-white">› Contact Us</Link></li>
           </ul>
         </div>
 
@@ -68,12 +69,14 @@ const Footer = () => {
             Our Services
           </h4>
           <ul className="space-y-2 text-white">
-            <li><Link to="/sewage-treatment" className="hover:text-white">› Sewage Treatment Plant</Link></li>
-            <li><Link to="/filter-press" className="hover:text-white">› Filter Press / Screw Press</Link></li>
-            <li><Link to="/clarifiers" className="hover:text-white">› Clarifiers / Air Pollution Control</Link></li>
-            <li><Link to="/oil-skimmers" className="hover:text-white">› Oil Skimmers</Link></li>
-            <li><Link to="/water-treatment" className="hover:text-white">› Water Treatment Plants</Link></li>
-            <li><Link to="/etp-ro" className="hover:text-white">› ETP / Ultrafilters / RO Plants</Link></li>
+            <li><Link to="/sewage-treatment-plant/" className="hover:text-white">› Sewage Treatment Plant</Link></li>
+            <li><Link to="/reverse-osmosis/" className="hover:text-white">› Reverse Osmosis</Link></li>
+            <li><Link to="/air-pollution-control-systems/" className="hover:text-white">› Air Pollution Control</Link></li>
+            <li><Link to="/swimming-pool-water-treatment-plant/" className="hover:text-white">› Swimming Pool Water Treatment</Link></li>
+            <li><Link to="/water-ammusement-parks/" className="hover:text-white">› Water Park</Link></li>
+            <li><Link to="/mineral-water-plants/" className="hover:text-white">› Mineral Water Plant</Link></li>
+            <li><Link to="/waste-water-treatment-plants/" className="hover:text-white">› Waste Water Treatment Plant</Link></li>
+            <li><Link to="/water-treatment-plants/" className="hover:text-white">› Water Treatment Plant</Link></li>
           </ul>
         </div>
 
@@ -132,9 +135,14 @@ const Footer = () => {
         <p>© 2025 Clear Ion Experts (P) Ltd. All Rights Reserved.</p>
         <p>
           Crafted with <span className="text-white">♥</span> by{" "}
-          <Link to="https://websiteseotool.in/" className="text-blue-400 hover:underline">
+          <a
+            href="https://websiteseotool.in/"
+            className="text-blue-400 hover:underline"
+            target="_blank"
+            rel="noreferrer"
+          >
             Advertising India
-          </Link>{" "}
+          </a>{" "}
           – Web & Branding Company
         </p>
       </div>
@@ -143,3 +151,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

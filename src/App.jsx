@@ -14,6 +14,13 @@ import ScrollToTop from './pages/ScrollToTop.jsx';
 import AboutUs from './pages/about/About.jsx';
 import ServicesPage from './pages/service/Service.jsx';
 import SwimmingPool from './pages/service/Swimming.jsx';
+import Air from './pages/service/Air.jsx';
+import Osmosis from './pages/service/Osmosis.jsx';
+import Sewage from './pages/service/Sewage.jsx';
+import Park from './pages/service/Park.jsx';
+import Mineral from './pages/service/Mineral.jsx';
+import Waste from './pages/service/Waste.jsx';
+import Treatment from './pages/service/Treatment.jsx';
 
 function App() {
   useEffect(() => {
@@ -32,7 +39,14 @@ function App() {
           <Route path="/gallery/" element={<Gallery/>} />
            <Route path="/about-us/" element={<AboutUs/>} />
            <Route path="/services/" element={<ServicesPage/>} />
-              <Route path="/swimming-pool-water-treatment-plant/" element={<SwimmingPool/>} />
+           <Route path="/swimming-pool-water-treatment-plant/" element={<SwimmingPool/>} />
+           <Route path="/air-pollution-control-systems/" element={<Air/>} />
+            <Route path="/reverse-osmosis/" element={<Osmosis/>} />
+             <Route path="/sewage-treatment-plant/" element={<Sewage/>} />
+             <Route path="/water-ammusement-parks/" element={<Park/>} />
+              <Route path="/mineral-water-plants/" element={<Mineral/>} />
+              <Route path="/waste-water-treatment-plants/" element={<Waste/>} />
+              <Route path="/water-treatment-plants/" element={<Treatment/>} />
         </Routes>
         <Footer />
       </Router>

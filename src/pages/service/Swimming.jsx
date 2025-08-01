@@ -45,30 +45,40 @@ const SwimmingPool = () => {
       <div className="min-h-screen flex flex-col justify-between bg-white">
 
         {/* Section 1: Overview */}
-        <section className="py-16 px-6 bg-gray-50">
+      <section className="py-16 px-6 bg-gray-50">
   <div className="max-w-6xl mx-auto grid grid-cols-1 gap-16">
-    <div className="grid md:grid-cols-2 gap-6 items-center">
-      
+    <div className="grid md:grid-cols-2 gap-10 items-center">
+
       {/* Text Section */}
       <div className="text-gray-700 text-base leading-relaxed text-justify md:text-left">
-          <div className="text-center mb-10">
+         <div className="text-center mb-10">
                   <h2 className="text-4xl font-bold text-blue-400 mb-2">Swimming Pool Overview</h2>
                   <div className="w-48 h-1 bg-blue-400 mx-auto rounded"></div>
                 </div>
 
-        Swimming pool, swimming bath, wading pool, paddling pool, or simply a pool, is a container filled with water intended for swimming or water-based recreation. There are many standard sizes, the largest of which is the Olympic-size swimming pool. A pool can be built either above or in the ground, and from materials such as concrete, metal, plastic or fiberglass. Pools that may be used by many people or by the general public are called public, while pools used exclusively by a few people or in a home are called private. Many health clubs, fitness centers and private clubs have public pools used mostly for exercise. Many hotels have pools available for their guests. Hot tubs and spas are pools with hot water, used for relaxation or therapy, and are common in homes, hotels, clubs and massage parlors. We are one of the leaders in supplying the Swimming Pool Filtration Plants and accessories. 
+        <p>
+          Swimming pool, swimming bath, wading pool, paddling pool, or simply a pool, is a container filled with water intended for swimming or water-based recreation. There are many standard sizes, the largest of which is the Olympic-size swimming pool.
+        </p>
+        <p className="mt-4">
+          A pool can be built either above or in the ground, and from materials such as concrete, metal, plastic or fiberglass. Pools that may be used by many people or by the general public are called public, while pools used exclusively by a few people or in a home are called private.
+        </p>
+        <p className="mt-4">
+          Many health clubs, fitness centers and private clubs have public pools used mostly for exercise. Many hotels have pools available for their guests.
+        </p>
+        <p className="mt-4">
+          Hot tubs and spas are pools with hot water, used for relaxation or therapy, and are common in homes, hotels, clubs and massage parlors. We are one of the leaders in supplying the Swimming Pool Filtration Plants and accessories.
+        </p>
       </div>
 
       {/* Image Section */}
       <img
         src={PoolImage}
         alt="Swimming Pool"
-        className="w-full h-[430px] object-cover rounded-xl shadow-md"
+        className="w-full h-[450px] object-cover rounded-xl shadow-lg"
       />
     </div>
   </div>
 </section>
-
 
        {/* Section 2: Why Choose Us */}
 <section className="py-20 bg-gray-50">
