@@ -71,8 +71,8 @@ export default function HomeService() {
   return (
     <div className="py-10 bg-white">
       <div className="text-center mb-10">
-        <h2 className="text-4xl font-bold text-blue-400 mb-2">Our Services</h2>
-        <div className="w-24 h-1 bg-blue-400 mx-auto rounded"></div>
+        <h2 className="text-4xl font-bold text-blue-700 mb-2">Our Services</h2>
+        <div className="w-24 h-1 bg-blue-700 mx-auto rounded"></div>
       </div>
 
       <div className="max-w-6xl mx-auto">

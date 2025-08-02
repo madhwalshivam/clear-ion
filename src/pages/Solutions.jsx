@@ -11,19 +11,20 @@ const Solutions = () => {
         {/* Title & Description */}
         <div className="text-center mb-16">
            <div className="text-center mb-10">
-  <h2 className="text-4xl font-bold text-blue-400 mb-2">Leading Water Treatment Solutions</h2>
-  <div className="w-64 h-1 bg-blue-400 mx-auto rounded"></div>
+  <h2 className="text-4xl font-bold text-blue-700 mb-2">Leading Water Treatment Solutions</h2>
+  <div className="w-64 h-1 bg-blue-700 mx-auto rounded"></div>
 </div>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
             Clear-ion Experts stands for the highest standards of quality & integrity in the business of Water, Waste Water & Air Pollution Control Systems.
             Since CIEPL’s inception way back in 1994, the company has grown swiftly and is now known globally.
             <span className="block mt-2">
               <Link
-                to="/about"
-                className="text-blue-400 font-semibold underline hover:text-blue-900 transition-all"
-              >
-                Read more
-              </Link>
+  to="/about-us/"
+  className="text-blue-700 font-semibold underline hover:text-blue-900 transition-all"
+>
+  About Our Water Treatment Services
+</Link>
+
             </span>
           </p>
         </div>

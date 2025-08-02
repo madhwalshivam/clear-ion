@@ -94,15 +94,14 @@ export default function Header() {
 
           <Link
             to="/contact-us/"
-            className="px-4 py-1.5 rounded font-medium bg-blue-400 text-white hover:bg-blue-700 transition"
+            className="px-4 py-1.5 rounded font-medium bg-blue-700 text-white hover:bg-blue-900 transition"
           >
             Contact
           </Link>
         </nav>
 
         {/* Mobile Toggle */}
-        <button
-          className="md:hidden text-white"
+        <button class="md:hidden text-white" aria-label="Open menu"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? (

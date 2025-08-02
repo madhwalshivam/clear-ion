@@ -73,8 +73,8 @@ const CertificatesCarousel = () => {
   return (
     <section className="py-10 bg-white">
          <div className="text-center mb-10">
-  <h2 className="text-4xl font-bold text-blue-400 mb-2"> OUR PROJECTS & CERTIFICATES</h2>
-  <div className="w-64 h-1 bg-blue-400 mx-auto rounded"></div>
+  <h2 className="text-4xl font-bold text-blue-700 mb-2"> OUR PROJECTS & CERTIFICATES</h2>
+  <div className="w-64 h-1 bg-blue-700 mx-auto rounded"></div>
 </div>
       <Carousel
         responsive={responsive}
