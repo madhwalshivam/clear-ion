@@ -81,7 +81,7 @@ const Waste = () => {
       {/* Image Section */}
       <img
         src={PoolImage}
-        alt="Waste Water Treatment Plant (WWTP, STP, ETP) in India, Delhi, Noida, Faridabad, Kolkata, Chennai, Nepal, Bhutan, Bangladesh, Oman"
+        alt=" Waste Water treatment plant system(WWTP) in Noida"
         className="w-full h-[300px] sm:h-[350px] md:h-[450px] lg:h-[450px] object-cover rounded-xl shadow-lg"
       />
     </div>
@@ -94,7 +94,7 @@ const Waste = () => {
       <div className="order-2 lg:order-1">
         <img
           src={ROImage1}
-         alt="WWTP, ETP, STP Solutions in Delhi, Noida Sector 1, Sector 15, Sector 18, Sector 62, Sector 63, Sector 137, Gurugram, Faridabad, Ghaziabad, Nepal, Bhutan, Oman, UAE"
+         alt=" Waste Water treatment plant system(WWTP) in Delhi"
           className="rounded-lg shadow-lg w-full h-auto object-cover"
         />
       </div>

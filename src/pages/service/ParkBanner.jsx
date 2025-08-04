@@ -22,7 +22,7 @@ const ParkBanner = () => {
       {/* Background Image */}
       <img
         src={bannerImage}
-        alt="Contact Banner"
+        alt="Water treatment system for water park pools and slides in Faridabad, Haryana"
         className={`absolute top-0 left-0 object-cover object-center w-full ${
           isMobile ? "h-full" : "h-full"
         }`}

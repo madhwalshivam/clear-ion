@@ -19,10 +19,9 @@ const TreatmentBanner = () => {
         isMobile ? "h-[400px]" : "min-h-screen"
       }`}
     >
-      {/* Background Image */}
       <img
         src={bannerImage}
-        alt="ETP, STP, ZLD, RO, DM Plant, Water Softener, Industrial Wastewater Recycling, Zero Liquid Discharge Systems, Water Treatment Solutions in Noida Sector 1, Sector 15, Sector 18, Sector 62, Sector 63, Sector 137, Delhi, Gurugram, Faridabad, India"
+        alt="Water treatment plant system(WTP) in Faridabad, Haryana"
         className={`absolute top-0 left-0 object-cover object-center w-full ${
           isMobile ? "h-full" : "h-full"
         }`}

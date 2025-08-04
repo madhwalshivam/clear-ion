@@ -22,7 +22,7 @@ const WasteBanner = () => {
       {/* Background Image */}
       <img
         src={bannerImage}
-       alt="Clear Ion Experts Pvt. Ltd. - ETP Plant, STP Plant, RO System, Water Softener, DM Plant, ZLD System, Industrial Wastewater Treatment, Water Recycling, Water Treatment Company in India, Noida, Delhi, Gurugram"
+        alt=" Waste Water treatment plant system(WWTP) in Faridabad, Haryana"
         className={`absolute top-0 left-0 object-cover object-center w-full ${
           isMobile ? "h-full" : "h-full"
         }`}

@@ -83,7 +83,7 @@ const Treatment = () => {
       {/* Image Section */}
       <img
         src={PoolImage}
-        alt="STP, ETP, WWTP Water Treatment Plant Solutions in Noida Sector 1-168, Delhi, Gurugram, Nepal, Bhutan, Oman, UAE"
+        alt="Water treatment plant system(WTP) in India"
         className="w-full h-[300px] sm:h-[350px] md:h-[450px] lg:h-[450px] object-cover rounded-xl shadow-lg"
       />
     </div>
@@ -98,7 +98,7 @@ const Treatment = () => {
       <div className="order-2 lg:order-1">
         <img
           src={ROImage1}
-          alt="Water Treatment Plant Solutions in Delhi, Gurugram, Faridabad, Noida Sector 1, 2, 10, 15, 16, 18, 22, 50, 62, 63, 75, 76, 110, Nepal, Bhutan, Oman, UAE"
+      alt="Water treatment plant system(WTP) in Noida"
           className="rounded-lg shadow-lg w-full h-auto object-cover"
         />
       </div>

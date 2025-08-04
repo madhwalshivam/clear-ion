@@ -22,7 +22,7 @@ import logo16 from "../assets/client14.jpg";
 
 const companies = [
   { src: logo1, alt: "Hindra Logistics" },
-  { src: logo2, alt: "Pfizer" },
+  { src: logo2, alt: "Pfizer" }, 
   { src: logo3, alt: "Samsung" },
   { src: logo4, alt: "Surya Clinic" },
   { src: logo5, alt: "Tech Mahindra" },

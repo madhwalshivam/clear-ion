@@ -22,7 +22,7 @@ const MineralBanner = () => {
       {/* Background Image */}
       <img
         src={bannerImage}
-          alt="Mineral Water Plant Installation and Solutions for India, Nepal, Bhutan, Qatar"
+          alt="Mineral Water Plant Installation(MWP) in Faridabad, Haryana"
         className={`absolute top-0 left-0 object-cover object-center w-full ${
           isMobile ? "h-full" : "h-full"
         }`}

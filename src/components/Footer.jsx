@@ -34,9 +34,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
         {/* About */}
         <div className="lg:col-span-2">
-          <h4 className="text-xl font-bold mb-4 text-white border-b-2 border-blue-500 inline-block">
-            About Clear Ion Experts (P) Ltd.
-          </h4>
+         <h3 className="text-xl font-bold mb-4 text-white border-b-2 border-blue-500 inline-block">
+  About Clear Ion Experts (P) Ltd.
+</h3>
           <p className="text-white mb-6">
             Clear Ion Experts (P) Ltd is a manufacturing establishment whose underlying interests are in the field of water and wastewater treatment, sewage and effluent treatment, and air pollution control systems.
           </p>
@@ -50,9 +50,9 @@ const Footer = () => {
 
         {/* Important Links */}
         <div>
-          <h4 className="text-lg font-semibold mb-4 text-white border-b-2 border-blue-500 inline-block">
-            Important Links
-          </h4>
+         <h3 className="text-lg font-semibold mb-4 text-white border-b-2 border-blue-500 inline-block">
+  Important Links
+</h3>
           <ul className="space-y-2 text-white">
             <li><Link to="/" className="hover:text-white">› Home</Link></li>
             <li><Link to="/about-us/" className="hover:text-white">› About Us</Link></li>
@@ -65,9 +65,9 @@ const Footer = () => {
 
         {/* Our Services */}
         <div>
-          <h4 className="text-lg font-semibold mb-4 text-white border-b-2 border-blue-500 inline-block">
-            Our Services
-          </h4>
+         <h3 className="text-lg font-semibold mb-4 text-white border-b-2 border-blue-500 inline-block">
+  Our Services
+</h3>
           <ul className="space-y-2 text-white">
             <li><Link to="/sewage-treatment-plant/" className="hover:text-white">› Sewage Treatment Plant</Link></li>
             <li><Link to="/reverse-osmosis/" className="hover:text-white">› Reverse Osmosis</Link></li>
@@ -82,9 +82,9 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div>
-          <h4 className="text-lg font-semibold mb-4 text-white border-b-2 border-blue-500 inline-block">
-            Get in Touch
-          </h4>
+          <h3 className="text-lg font-semibold mb-4 text-white border-b-2 border-blue-500 inline-block">
+  Get in Touch
+</h3>
           <p className="text-white">
             Plot No. 28, Sector-24,<br />
             Faridabad (Haryana), India
@@ -101,32 +101,38 @@ const Footer = () => {
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-4 mt-4 text-gray-800">
-            <a
-              href="https://www.facebook.com/people/Clear-Ion-Experts-Pvt-Ltd/100069134930565/?rdid=1Co9btZQuVO9hlsW&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fe7Zii1YZsJpzUEAU%2F"
-              target="_blank"
-              rel="noreferrer"
-              className="w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-600 hover:text-white transition duration-300"
-            >
-              <FacebookIcon fontSize="small" />
-            </a>
-            <a
-              href="https://www.youtube.com/@clearion"
-              target="_blank"
-              rel="noreferrer"
-              className="w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-red-600 hover:text-white transition duration-300"
-            >
-              <YouTubeIcon fontSize="small" />
-            </a>
-            <a
-              href="https://www.instagram.com/clearionwatertreatment/"
-              target="_blank"
-              rel="noreferrer"
-              className="w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-pink-600 hover:text-white transition duration-300"
-            >
-              <InstagramIcon fontSize="small" />
-            </a>
-          </div>
+        <div className="flex gap-4 mt-4 text-gray-800">
+  <a
+    href="https://www.facebook.com/people/Clear-Ion-Experts-Pvt-Ltd/100069134930565/?rdid=1Co9btZQuVO9hlsW&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fe7Zii1YZsJpzUEAU%2F"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Visit our Facebook page"
+    className="w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-600 hover:text-white transition duration-300"
+  >
+    <FacebookIcon fontSize="small" />
+  </a>
+
+  <a
+    href="https://www.youtube.com/@clearion"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Visit our YouTube channel"
+    className="w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-red-600 hover:text-white transition duration-300"
+  >
+    <YouTubeIcon fontSize="small" />
+  </a>
+
+  <a
+    href="https://www.instagram.com/clearionwatertreatment/"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Visit our Instagram profile"
+    className="w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-pink-600 hover:text-white transition duration-300"
+  >
+    <InstagramIcon fontSize="small" />
+  </a>
+</div>
+
         </div>
       </div>
 

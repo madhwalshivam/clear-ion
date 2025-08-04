@@ -82,7 +82,7 @@ const Mineral = () => {
       {/* Image Section */}
       <img
         src={PoolImage}
-        alt="Mineral Water Plant in Noida Sector 15, Sector 62, Sector 63, Sector 137, Delhi, Gurugram, Bhutan, Nepal, Oman"
+        alt="Mineral Water Plant in Noida"
         className="w-full h-[300px] sm:h-[350px] md:h-[450px] lg:h-[450px] object-cover rounded-xl shadow-lg"
       />
     </div>
@@ -97,7 +97,7 @@ const Mineral = () => {
       <div className="order-2 lg:order-1">
         <img
           src={ROImage1}
-          alt="Mineral Water Plant Solutions in Delhi, Noida, Gurugram, Kochi, Nepal, Bhutan, Oman, India"
+          alt="Mineral Water Plant Solutions(MWP) in Delhi"
           className="rounded-lg shadow-lg w-full h-auto object-cover"
         />
       </div>

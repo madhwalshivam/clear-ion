@@ -79,7 +79,7 @@ const Park = () => {
       </div>
       <img
         src={PoolImage}
-        alt="Water Park Filtration System in India, Delhi, Noida, Bhutan, Nepal, Oman, Gurugram"
+        alt="Water Park Filtration System in Noida"
         className="w-full h-[300px] sm:h-[350px] md:h-[450px] lg:h-[450px] object-cover rounded-xl shadow-lg"
       />
     </div>
@@ -93,7 +93,7 @@ const Park = () => {
       <div className="order-2 lg:order-1">
         <img
           src={ROImage1} 
-          alt="Water Park Filtration and Water Recycling System in India, Nepal, Bhutan, Qatar"
+          alt="Water Park Filtration and Water Recycling System in India"
           className="rounded-lg shadow-lg w-full h-auto object-cover"
         />
       </div>

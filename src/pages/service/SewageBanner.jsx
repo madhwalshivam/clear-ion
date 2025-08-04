@@ -22,7 +22,7 @@ const SewageBanner = () => {
       {/* Background Image */}
       <img
         src={bannerImage}
-        alt="Contact Banner"
+        alt="Top Sewage Treatment Plant(STP) in Faridabad, Haryana"
         className={`absolute top-0 left-0 object-cover object-center w-full ${
           isMobile ? "h-full" : "h-full"
         }`}
