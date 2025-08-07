@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Clear Ion Experts (P) Ltd</title>
+        <title>Clear Ion Experts (P) Ltd | Best Water Treatment in India, Delhi, Noida & all over the world</title>
         <meta name="description" content="Explore our trusted solutions, services, and certifications. See how we help businesses grow with innovative solutions." />
         <meta name="keywords" content="solutions, services, IT, business, certificates, carousel" />
         <meta name="robots" content="index, follow" />

@@ -12,7 +12,7 @@ const AboutUs = () => {
     <AboutBanner/>
     <div>
       <Helmet>
-        <title>About Us | Clear-ion Experts (P) Ltd</title>
+        <title>About Us | Clear-ion Experts (P) Ltd | Best Water Treatment Plant in Faridabad</title>
         <meta
           name="description"
           content="Clear-ion Experts is a global leader in water, wastewater, and air pollution control systems, delivering top-quality solutions since 1994."
@@ -40,14 +40,25 @@ const AboutUs = () => {
   <div className="w-48 h-1 bg-blue-400 mx-auto rounded"></div>
 </div>
           
-            <p className="mb-4 text-lg">
-              Clear-ion Experts stands for the highest standards of quality & integrity in the business of Water, Waste Water & Air Pollution Control Systems.
-              Since our inception in 1994, our growth has been swift and sustainable, making us one of the leading manufacturers in this domain worldwide.
-            </p>
-            <p className="mb-4 text-lg">
-              Accredited with ISO, CE, and D&B certifications, Clear-ion is proud to be a trusted name across diverse industries.
-              Our world-class manufacturing facility in Faridabad, near Delhi, is equipped with cutting-edge technologies and expert teams.
-            </p>
+           <p className="mb-4 text-lg text-justify leading-relaxed">
+      <strong>Welcome to Clear-Ion Experts Pvt. Ltd. – Engineering Water & Air Purity Since 1994</strong><br />
+      Water is life, and clean air is survival. At Clear-Ion Experts Pvt. Ltd., we have been committed to building a cleaner, healthier, and more sustainable environment for over three decades. Based in Faridabad, India, and operating across Nepal, Bhutan, Bangladesh, and South Africa, we specialize in high-quality Water Treatment Plants, Sewage Treatment Plants (STP), Effluent Treatment Plants (ETP), Reverse Osmosis (RO) Systems, and Air Pollution Control Systems.
+    </p>
+
+    <p className="mb-4 text-lg text-justify leading-relaxed">
+      Our team of engineers and environmental specialists designs tailor-made solutions that serve industries, municipalities, hospitals, hotels, societies, and institutions. We don't just build machines — we build trust, technology, and transformation.
+    </p>
+
+    {/* Company Overview */}
+    <p className="mb-4 text-lg text-justify leading-relaxed">
+      Clear-ion Experts stands for the highest standards of quality & integrity in the business of Water, Waste Water & Air Pollution Control Systems. Since our inception in 1994, our growth has been swift and sustainable, making us one of the leading manufacturers in this domain worldwide.
+    </p>
+
+    {/* Certifications & Facilities */}
+    <p className="mb-4 text-lg text-justify leading-relaxed">
+      Accredited with ISO, CE, and D&B certifications, Clear-ion is proud to be a trusted name across diverse industries. Our world-class manufacturing facility in Faridabad, near Delhi, is equipped with cutting-edge technologies and expert teams.
+    </p>
+
           </div>
           <img
             src= {About}
