@@ -26,7 +26,7 @@ const Air = () => {
   return (
     <div>
          <Helmet>
-        <title>Air Pollution Control Systems & Solutions | Clear Ion</title>
+        <title>Best Air Pollution Control Systems & Solutions in India | Clear Ion</title>
         <meta
           name="description"
           content="Discover our advanced air pollution control systems designed to reduce emissions, improve air quality, and ensure environmental compliance across industries."
@@ -53,37 +53,42 @@ const Air = () => {
                   <div className="w-48 h-1 bg-blue-400 mx-auto rounded"></div>
                 </div>
 
-  <p>
-    Air pollution systems reduce harmful particles and gases from industries to protect the environment.
-  </p>
+<p>
+  <strong>Air Pollution Control Systems</strong> are essential for reducing harmful airborne particles, toxic gases, and industrial emissions to protect both human health and the environment. At <strong>Pure World</strong>, we offer advanced air purification technologies trusted across <strong>Delhi</strong>, <strong>Faridabad</strong>, <strong>Gurgaon</strong>, <strong>Noida</strong>, <strong>Bhutan</strong>, <strong>Nepal</strong>, and <strong>all over India</strong> for homes, factories, laboratories, and hospitals.
+</p>
 
-  <p className="mt-4">
-    <strong>HEPA Filters:</strong> Capture very small airborne particles using fiberglass fibers in homes and hospitals.
-  </p>
+<p className="mt-4">
+  <strong>HEPA Filters:</strong> Designed for hospitals, cleanrooms, and households, HEPA (High-Efficiency Particulate Air) filters capture microscopic airborne particles, including allergens, dust, and bacteria, providing highly purified air.
+</p>
 
-  <p className="mt-4">
-    <strong>Bag Filters:</strong> Trap industrial dust using fabric filters, improving air quality in factories.
-  </p>
+<p className="mt-4">
+  <strong>Bag Filters:</strong> Ideal for industrial units and cement plants, these fabric filters effectively trap dust and particulate matter, improving workplace air quality and ensuring regulatory compliance.
+</p>
 
-  <p className="mt-4">
-    <strong>Cyclone Dust Collector:</strong> Uses spinning motion and gravity to separate dust from air without filters.
-  </p>
+<p className="mt-4">
+  <strong>Cyclone Dust Collector:</strong> A cost-effective solution for primary dust removal in heavy-duty industries. It uses centrifugal force to remove large dust particles without requiring filter replacements.
+</p>
 
-  <p className="mt-4">
-    <strong>Wet Scrubber:</strong> Polluted gas contacts liquid spray, removing harmful particles and gases effectively.
-  </p>
+<p className="mt-4">
+  <strong>Wet Scrubber:</strong> This system uses liquid (often water) to wash out harmful gases, fumes, and fine particles from exhaust streams. It’s widely used in chemical industries across <strong>India</strong> and neighboring regions.
+</p>
 
-  <p className="mt-4">
-    <strong>Fume Extraction:</strong> Removes hazardous fumes during welding or lab work using filters and exhaust systems.
-  </p>
+<p className="mt-4">
+  <strong>Fume Extraction System:</strong> Protects workers by eliminating hazardous fumes generated during welding, soldering, or chemical processes. These are essential in laboratories, workshops, and industrial facilities.
+</p>
 
-  <p className="mt-4">
-    <strong>Multi Cyclone:</strong> Uses multiple spinning chambers to increase dust collection efficiency in heavy industries.
-  </p>
+<p className="mt-4">
+  <strong>Multi Cyclone Separator:</strong> Utilizes multiple chambers to enhance dust collection efficiency in power plants and large-scale factories. This robust system is preferred in industries with high dust loads.
+</p>
 
-  <p className="mt-4">
-    <strong>Air Filtration:</strong> Filters dust, smoke, and odors using HEPA or carbon filters in clean environments.
-  </p>
+<p className="mt-4">
+  <strong>Air Filtration Systems:</strong> Using advanced HEPA or activated carbon filters, our air purifiers eliminate dust, smoke, volatile organic compounds (VOCs), and unpleasant odors—perfect for residential, commercial, and industrial use.
+</p>
+
+<p className="mt-4">
+  Whether you're located in <strong>Delhi NCR</strong>, <strong>Faridabad industrial zones</strong>, or <strong>remote areas in Nepal or Bhutan</strong>, <strong>Pure World</strong> delivers reliable and customized <strong>air pollution solutions</strong> that meet international quality standards.
+</p>
+
 </div>
 
 

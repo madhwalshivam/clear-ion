@@ -35,6 +35,28 @@ import g32 from '../assets/g32.jpg';
 import g33 from '../assets/g33.jpg';
 import g34 from '../assets/g34.jpg';
 import g35 from '../assets/g35.jpg';
+import img1 from '../assets/1.jpg';
+import img2 from '../assets/2.jpg';
+import img3 from '../assets/3.jpg';
+import img4 from '../assets/4.jpg';
+import img5 from '../assets/5.bmp';
+import img6 from '../assets/6.JPG';
+import img7 from '../assets/7.JPG';
+import img8 from '../assets/8.jpg';
+import img9 from '../assets/9.jpg';
+import img10 from '../assets/10.jpg';
+import img11 from '../assets/11.jpg';
+import img12 from '../assets/12.jpg';
+import img13 from '../assets/13.JPG';
+import img14 from '../assets/14.jpg';
+import img15 from '../assets/15.jpg';
+import img16 from '../assets/16.jpg';
+import img17 from '../assets/17.jpg';
+import img18 from '../assets/18.JPG';
+import img19 from '../assets/19.jpg';
+import img20 from '../assets/20.jpg';
+import img21 from '../assets/21.jpg';
+import img22 from '../assets/22.jpg';
 import { motion } from "framer-motion";
 import GalBanner from "./GalleryBanner";
 
@@ -70,10 +92,28 @@ const galleryItems = [
   { type: "image", src: g29 },
   { type: "image", src: g30 },
   { type: "image", src: g31 },
-  { type: "image", src: g32 },
-  { type: "image", src: g33 },
-  { type: "image", src: g34 },
-  { type: "image", src: g35 },
+  { type: "image", src: img1 },
+  { type: "image", src: img2 },
+  { type: "image", src: img3 },
+  { type: "image", src: img4 },
+  { type: "image", src: img5 },
+  { type: "image", src: img6 },
+  { type: "image", src: img7 },
+  { type: "image", src: img8 },
+  { type: "image", src: img9 },
+  { type: "image", src: img10 },
+  { type: "image", src: img11 },
+  { type: "image", src: img12 },
+  { type: "image", src: img13 },
+  { type: "image", src: img14 },
+  { type: "image", src: img15 },
+  { type: "image", src: img16 },
+  { type: "image", src: img17 },
+  { type: "image", src: img18 },
+  { type: "image", src: img19 },
+  { type: "image", src: img20 },
+  { type: "image", src: img21 },
+  { type: "image", src: img22 },
   { type: "video", src: "/video/gallery.mp4" },
 ];
 

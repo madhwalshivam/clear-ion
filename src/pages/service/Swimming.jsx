@@ -27,7 +27,7 @@ const SwimmingPool = () => {
   return (
     <div>
       <Helmet>
-        <title>Swimming Pool Filtration & Treatment Solutions | Clear Ion</title>
+        <title>Best Swimming Pool Filtration & Treatment Solutions in India | Clear Ion</title>
         <meta
           name="description"
           content="Learn about swimming pool types, water-based recreation, and our advanced pool filtration systems. We offer turnkey pool disinfection and treatment solutions."
@@ -56,18 +56,26 @@ const SwimmingPool = () => {
                   <div className="w-48 h-1 bg-blue-400 mx-auto rounded"></div>
                 </div>
 
-        <p>
-          Swimming pool, swimming bath, wading pool, paddling pool, or simply a pool, is a container filled with water intended for swimming or water-based recreation. There are many standard sizes, the largest of which is the Olympic-size swimming pool.
-        </p>
-        <p className="mt-4">
-          A pool can be built either above or in the ground, and from materials such as concrete, metal, plastic or fiberglass. Pools that may be used by many people or by the general public are called public, while pools used exclusively by a few people or in a home are called private.
-        </p>
-        <p className="mt-4">
-          Many health clubs, fitness centers and private clubs have public pools used mostly for exercise. Many hotels have pools available for their guests.
-        </p>
-        <p className="mt-4">
-          Hot tubs and spas are pools with hot water, used for relaxation or therapy, and are common in homes, hotels, clubs and massage parlors. We are one of the leaders in supplying the Swimming Pool Filtration Plants and accessories.
-        </p>
+       <p>
+  A <strong>swimming pool</strong>—also known as a swimming bath, wading pool, or paddling pool—is a container filled with water intended for swimming and water-based recreation. From residential to commercial use, swimming pools come in various sizes, including the Olympic-size pool used for competitions.
+</p>
+
+<p className="mt-4">
+  Pools can be constructed either above ground or in-ground, using materials like concrete, metal, plastic, or fiberglass. Public pools are designed for community use in places like hotels or clubs, while private pools are commonly found in homes and personal spaces.
+</p>
+
+<p className="mt-4">
+  Today, many <strong>health clubs, fitness centers, and luxury hotels</strong> in regions like <strong>Delhi</strong>, <strong>Faridabad</strong>, and across <strong>India</strong> feature swimming pools as part of their amenities. These are not just for fun, but also used for therapeutic and fitness purposes.
+</p>
+
+<p className="mt-4">
+  <strong>Hot tubs and spas</strong>, which are smaller pools filled with heated water, are popular in massage centers, hotels, and homes, offering relaxation and hydrotherapy benefits.
+</p>
+
+<p className="mt-4">
+  At <strong>Pure World</strong>, we are proud to be one of the leading suppliers of <strong>Swimming Pool Filtration Plants</strong> and accessories. We provide high-quality pool equipment and services in <strong>Delhi</strong>, <strong>Faridabad</strong>, <strong>Gurgaon</strong>, <strong>Bhutan</strong>, <strong>Nepal</strong>, and <strong>all over India</strong>, delivering customized solutions for both private and public pool projects.
+</p>
+
       </div>
 
       {/* Image Section */}
